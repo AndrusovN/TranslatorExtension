@@ -4,7 +4,9 @@
 	"version": "1.0.5",
 	"icons": {"128": "icon.png"},
 	"browser_action": {
-		"default_icon": "icon.png"
+		"default_icon": "icon.png",
+		"default_popup": "popup.html",
+		"default_title": "Translator Extension"
 	},
 	"permissions": [
 		"activeTab"
